@@ -1,0 +1,7 @@
+shared:
+  image: node:20
+jobs:
+  main:
+    requires: [~commit]
+    steps:
+      - check: echo jr3y-private-probe-82741
